@@ -31,8 +31,9 @@ public class HomeFragment extends Fragment implements FileMenuAdapter.ItemClickL
 
         // Populate the RecyclerView
         ArrayList<String> ListOfFiles = new ArrayList<>();
-        ListOfFiles.add("File1");
-        ListOfFiles.add("File2");
+        ListOfFiles.add(new String(Character.toChars(0x2934)) + " . .");
+        ListOfFiles.add(new String(Character.toChars(0x1F4C2)) + " Folder");
+        ListOfFiles.add(new String(Character.toChars(0x1F4C4)) + " Document");
 
         RecyclerView recyclerView = root.findViewById(R.id.fileList);
         recyclerView.setLayoutManager(new LinearLayoutManager(root.getContext()));
