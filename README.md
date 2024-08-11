@@ -19,8 +19,7 @@ choice (ie. git, USB, E-mail, etc.).
 - Stores all encrypted files in a folder accessible to other applications on
   the device
 - Choose between ASCII armoured text or binary
-- Use [open-keychain](https://github.com/open-keychain/open-keychain) for
-  encryption backend
+- Use [open-keychain](https://github.com/open-keychain/open-keychain) for encryption backend
 
 ## Layout
 
@@ -54,4 +53,3 @@ choice (ie. git, USB, E-mail, etc.).
 - Text body
 - Save button in top right
 - Close without saving
-
